@@ -8,7 +8,7 @@ console.log(movies[1]);
 //Declare an array called movies. Then, assign one of your favorite movies to each index in the array until you have 5 total movies in your array. Then, use the console to display the first movie in your array.
 var movies = [];
 movies[0] = "Les Intouchables";
-movies[1] = "Cidade de Deus;
+movies[1] = "Cidade de Deus";
 movies[2] = "L'Auberge Espagnol";
 movies[3] = "Los Diarios de Motocicleta";
 movies[4] = "Dot the i";
@@ -16,7 +16,7 @@ console.log(movies[0]);
 
 // step 3
 //Add a new movie into the 3rd position within your array. Then, use the console to display the length of the array. You should now have 6 total movies stored in the array.
-var movies = ["Les Intouchables", "Cidade de Deus", "Deux Secondes", L'Auberge Espagnol", "Los Diarios de Motocicleta", "Dot the i"];
+var movies = ["Les Intouchables", "Cidade de Deus", "Deux Secondes", "L'Auberge Espagnol", "Los Diarios de Motocicleta", "Dot the i"];
 console.log(movies.length);
 
 // step 4
@@ -28,8 +28,7 @@ movies[1] = "Cidade de Deus";
 movies[2] = "Deux Secondes";
 movies[3] = "L'Auberge Espagnol";
 movies[4] = "Cidade de Deus";
-//var lastMovie = (movies[movies.length-1]);
-//movies.shift([0]); 
+
 delete movies[0];
 console.log(movies);
 
